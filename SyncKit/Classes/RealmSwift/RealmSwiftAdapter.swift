@@ -430,7 +430,7 @@ public class RealmSwiftAdapter: NSObject, QSModelAdapter {
     }
     
     func getSyncedEntity(objectIdentifier: String, realm: Realm) -> SyncedEntity? {
-        
+        realm.refresh()
         return realm.object(ofType: SyncedEntity.self, forPrimaryKey: objectIdentifier)
     }
     
