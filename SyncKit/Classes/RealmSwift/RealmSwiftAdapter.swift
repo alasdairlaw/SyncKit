@@ -140,6 +140,12 @@ public class RealmSwiftAdapter: NSObject, QSModelAdapter {
         for schema in realmProvider.targetRealm.schema.objectSchema {
             
             let objectClass = realmObjectClass(name: schema.className)
+            let realmContainsObject = targetRealmConfiguration.objectTypes?.contains { objectType in
+                objectClass == objectType
+            }
+            if realmContainsObject == false {
+                continue
+            }
             let primaryKey = objectClass.primaryKey()!
             let results = realmProvider.targetRealm.objects(objectClass)
             
