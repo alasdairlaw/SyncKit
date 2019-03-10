@@ -537,6 +537,12 @@ public class RealmSwiftAdapter: NSObject, QSModelAdapter {
         if key == object.objectSchema.primaryKeyProperty!.name {
             return
         }
+        let propertyOptional = object.objectSchema.properties.first { property in
+            return property.name == key
+        }
+        guard let property = propertyOptional else {
+            return
+        }
         
         let value = record[key]
         if let reference = value as? CKRecord.Reference {
@@ -551,6 +557,9 @@ public class RealmSwiftAdapter: NSObject, QSModelAdapter {
             let data = NSData(contentsOf: asset.fileURL)
             object.setValue(data, forKey: key)
         } else {
+            if !property.isOptional && value == nil {
+                return
+            }
             // If property is not a relationship or property is nil
             object.setValue(value, forKey: key)
         }
