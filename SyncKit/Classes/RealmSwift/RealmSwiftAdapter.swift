@@ -566,6 +566,12 @@ public class RealmSwiftAdapter: NSObject, ModelAdapter {
         if key == object.objectSchema.primaryKeyProperty!.name {
             return
         }
+        let propertyOptional = object.objectSchema.properties.first { property in
+            return property.name == key
+        }
+        guard let property = propertyOptional else {
+            return
+        }
         
         if let recordProcessingDelegate = recordProcessingDelegate,
            !recordProcessingDelegate.shouldProcessPropertyInDownload(propertyName: key, object: object, record: record) {
