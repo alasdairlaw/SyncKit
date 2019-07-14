@@ -68,6 +68,8 @@
 		648D942D22CD22AF00C01529 /* SyncedEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyncedEntity.swift; path = ../../../../../SyncKit/Classes/RealmSwift/SyncedEntity.swift; sourceTree = "<group>"; };
 		64A0B3B122C147EF002F0880 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		64A0B3B222C147F0002F0880 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		818014F822DB62A1008A2012 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		818014FA22DB62A1008A2012 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				640C330A22A2F15100A85508 /* SyncKit */,
 				640C330922A2F15100A85508 /* Products */,
+				818014F722DB62A1008A2012 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +151,15 @@
 				648D942D22CD22AF00C01529 /* SyncedEntity.swift */,
 			);
 			path = Realm;
+			sourceTree = "<group>";
+		};
+		818014F722DB62A1008A2012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				818014F822DB62A1008A2012 /* Realm.framework */,
+				818014FA22DB62A1008A2012 /* RealmSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

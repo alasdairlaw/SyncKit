@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:SyncKitRealmSwiftWatchOS/SyncKitRealmSwiftWatchOS.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:SyncKitRealmSwiftiOS/SyncKitRealmSwiftiOS.xcodeproj">
    </FileRef>
    <FileRef

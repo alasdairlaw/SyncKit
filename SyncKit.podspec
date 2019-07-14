@@ -19,7 +19,7 @@ SyncKit automates the process of synchronizing your Core Data/Realm models using
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Manuel Entrena' => 'manuel@mentrena.com' }
   s.source           = { :git => 'https://github.com/mentrena/SyncKit.git', :tag => s.version.to_s }
-  s.swift_version    = '5.0'
+  s.swift_version    = '5.1'
   s.module_name		 = 'SyncKit'
 
 s.ios.deployment_target = '10.0'

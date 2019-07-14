@@ -72,7 +72,7 @@ extension CloudKitSynchronizer {
         if let encodedToken = userDefaults.object(forKey: key) as? Data {
             
             if let token = NSKeyedUnarchiver.unarchiveObject(with: encodedToken) as? CKServerChangeToken {
-                adapter.saveToken(token)
+                adapter.saveToken(token )
             }
             userDefaults.removeObject(forKey: key)
         }
