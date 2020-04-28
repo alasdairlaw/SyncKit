@@ -37,7 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		640C330822A2F15100A85508 /* SyncKitRealmSwiftWatchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SyncKitRealmSwiftWatchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		640C330822A2F15100A85508 /* SyncKitRealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SyncKitRealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		640C330B22A2F15100A85508 /* SyncKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyncKit.h; sourceTree = "<group>"; };
 		640C330C22A2F15100A85508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		648D940422CD229C00C01529 /* CloudKitDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudKitDatabase.swift; path = ../../../../../SyncKit/Classes/QSSynchronizer/CloudKitDatabase.swift; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		640C330922A2F15100A85508 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				640C330822A2F15100A85508 /* SyncKitRealmSwiftWatchOS.framework */,
+				640C330822A2F15100A85508 /* SyncKitRealmSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,9 +164,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		640C330722A2F15100A85508 /* SyncKitRealmSwiftWatchOS */ = {
+		640C330722A2F15100A85508 /* SyncKitRealmSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 640C331022A2F15100A85508 /* Build configuration list for PBXNativeTarget "SyncKitRealmSwiftWatchOS" */;
+			buildConfigurationList = 640C331022A2F15100A85508 /* Build configuration list for PBXNativeTarget "SyncKitRealmSwift" */;
 			buildPhases = (
 				640C330322A2F15100A85508 /* Headers */,
 				640C330422A2F15100A85508 /* Sources */,
@@ -177,9 +177,9 @@
 			);
 			dependencies = (
 			);
-			name = SyncKitRealmSwiftWatchOS;
+			name = SyncKitRealmSwift;
 			productName = SyncKit;
-			productReference = 640C330822A2F15100A85508 /* SyncKitRealmSwiftWatchOS.framework */;
+			productReference = 640C330822A2F15100A85508 /* SyncKitRealmSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				640C330722A2F15100A85508 /* SyncKitRealmSwiftWatchOS */,
+				640C330722A2F15100A85508 /* SyncKitRealmSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -407,6 +407,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mentrena.SyncKitRealmSwiftiOS;
+				PRODUCT_MODULE_NAME = SyncKitRealmSwift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -441,6 +442,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mentrena.SyncKitRealmSwiftiOS;
+				PRODUCT_MODULE_NAME = SyncKitRealmSwift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -462,7 +464,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		640C331022A2F15100A85508 /* Build configuration list for PBXNativeTarget "SyncKitRealmSwiftWatchOS" */ = {
+		640C331022A2F15100A85508 /* Build configuration list for PBXNativeTarget "SyncKitRealmSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				640C331122A2F15100A85508 /* Debug */,
