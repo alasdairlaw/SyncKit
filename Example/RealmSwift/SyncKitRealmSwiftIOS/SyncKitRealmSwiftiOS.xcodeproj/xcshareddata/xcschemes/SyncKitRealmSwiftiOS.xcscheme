@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "640C330722A2F15100A85508"
-               BuildableName = "SyncKitRealmSwiftiOS.framework"
-               BlueprintName = "SyncKitRealmSwiftiOS"
+               BuildableName = "SyncKitRealmSwift.framework"
+               BlueprintName = "SyncKitRealmSwift"
                ReferencedContainer = "container:SyncKitRealmSwiftiOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -46,13 +44,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "640C330722A2F15100A85508"
-            BuildableName = "SyncKitRealmSwiftiOS.framework"
-            BlueprintName = "SyncKitRealmSwiftiOS"
+            BuildableName = "SyncKitRealmSwift.framework"
+            BlueprintName = "SyncKitRealmSwift"
             ReferencedContainer = "container:SyncKitRealmSwiftiOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -64,8 +60,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "640C330722A2F15100A85508"
-            BuildableName = "SyncKitRealmSwiftiOS.framework"
-            BlueprintName = "SyncKitRealmSwiftiOS"
+            BuildableName = "SyncKitRealmSwift.framework"
+            BlueprintName = "SyncKitRealmSwift"
             ReferencedContainer = "container:SyncKitRealmSwiftiOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
