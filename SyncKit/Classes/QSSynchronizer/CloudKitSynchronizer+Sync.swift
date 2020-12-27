@@ -65,6 +65,7 @@ extension CloudKitSynchronizer {
             self?.finishSynchronization(error: error)
         }
         currentOperation = operation
+        operation.qualityOfService = .userInitiated
         operationQueue.addOperation(operation)
     }
     
